@@ -120,10 +120,13 @@ names of files: case-sensitive, avoid space, or @$%^&*()+=/
 
 * `grep 000 file1.txt > file2.txt` - prints lines from file1.txt containing 000 to file2.txt
 
-* ```cat > file3.txt
+*
+```
+cat > file3.txt
 Write something
 here
-Ctrl+D``` - creation of a file by cat
+Ctrl+D
+``` - creation of a file by cat
 
 * `echo "Write something here" > file1.txt` - creation of a file by echo
 
