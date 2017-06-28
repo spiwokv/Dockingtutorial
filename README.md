@@ -92,32 +92,25 @@ names of files: case-sensitive, avoid space, or @$%^&*()+=/
 
 ### Main Linux commands for text manipulation
 
-cat soubor1.txt
- = vypíše obsah textového souboru
-head soubor1.txt
- = vypíše prvních deset řádků souboru
-head -100 soubor1.txt
- = vypíše prvních sto řádků souboru
-tail soubor1.txt
- = vypíše posledních deset řádků souboru
-more soubor1.txt
- = vypíše obsah souboru po stránkách
-(nový řádek Enter, nová stránka mezerník, konec q).
-Podobný je příkaz
- less
-grep 00033 soubor1.txt
- = vypíše řádky souboru,
-které obsahují řetězec 00033
-grep -v 00033 soubor1.txt
- = vypíše řádky souboru,
-které NEobsahují řetězec 00033
-grep -i BB soubor1.txt
- = vypíše řádky souboru, které obsahují
-řetězec BB, bb, Bb nebo bB
-grep "00 33" soubor1.txt
- = vypíše řádky souboru,
-které obsahují řetězec "00 33"
-wc soubor1.txt
- = spočítá slova a řádky v souboru 
-diff soubor1.txt soubor2.txt
- = zjistí rozdíly v souborech
+* `cat file1.txt` - prints the text content
+
+* `head file1.txt` - prints the first 10 lines of the text content
+
+* `head -100 file1.txt` - prints the first 1000 lines of the text content
+
+* `tail file1.txt` - prints the last 10 line of the text content
+
+* `more file1.txt` - prints the text content page by page (can be contorled by Enter, Space or q, similar to less)
+
+* `grep 00033 file1.txt` - prints lines containing 00033
+
+* `grep -v 00033 file1.txt` - prints lines not containing 00033
+
+* `grep -i BB file1.txt` - prints lines containing BB, bb, Bb or bB
+
+* `grep "00 33" file1.txt` - prints lines containing "00 33"
+
+* `wc file1.txt` - counts words and lines
+
+* `diff file1.txt file2.txt` - prints differences in files
+
