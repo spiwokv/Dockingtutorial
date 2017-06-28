@@ -151,5 +151,5 @@ drwxrwxr-x 103 spiwokv spiwokv     4096 Mar 27 20:40 byrokracy
 
 * `top` - interactive version of ps
 
-* `kill 10695` - kills process number 10695
+* `kill 10695` - kills the process number 10695
 
