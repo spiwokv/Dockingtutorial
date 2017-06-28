@@ -134,4 +134,22 @@ Ctrl+D
 
 * `egrep 000 file1.txt | wc` = counts lines containing 000 in file1.txt
 
+### Access rights
+
+```
+-rw-r--r--   1 spiwokv spiwokv  2116502 Jun 18  2012 adaptive.avi
+-rw-r--r--   1 spiwokv spiwokv    12288 Jan 23 20:46 BI_Spiwok2_A.doc
+-rw-r--r--   1 spiwokv spiwokv    98816 Jan 23 20:47 BI_Spiwok2_C.doc
+drwxrwxr-x 103 spiwokv spiwokv     4096 Mar 27 20:40 byrokracy
+```
+
+* `chmod a+r adaptive.avi` - gives all users a right to read the file
+
+### Linux processes
+
+* `ps` - print running processes
+
+* `top` - interactive version of ps
+
+* `kill 10695` - kills process number 10695
 
