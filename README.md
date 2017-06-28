@@ -14,23 +14,39 @@ Linux - usual directory structure
 
 root directiory `/`
 
-`/bin` = system commands
-`/boot` = startup programs
-`/dev` = devices (disks and otehrs)
-`/etc` = settings
-`/home` = users' home directories
-`/home/vojtech` = home directory of the user vojtech
-`/lib` = libraries
-`/lost+found` = ?
-`/media` or `/mnt` = access to CD/DVD or USB drives
-`/opt` = other programs
-`/proc` = processes
-`/root` = superuser's home directory
-`/sbin` = additional programs
-`/sys` = system
-`/temp` or `/tmp` = temporary data
-`/usr` = main user programs
-`/var` = others
+* `/bin` = system commands
+
+* `/boot` = startup programs
+
+* `/dev` = devices (disks and otehrs)
+
+* `/etc` = settings
+
+* `/home` = users' home directories
+
+* `/home/vojtech` = home directory of the user vojtech
+
+* `/lib` = libraries
+
+* `/lost+found` = ?
+
+* `/media` or `/mnt` = access to CD/DVD or USB drives
+
+* `/opt` = other programs
+
+* `/proc` = processes
+
+* `/root` = superuser's home directory
+
+* `/sbin` = additional programs
+
+* `/sys` = system
+
+* `/temp` or `/tmp` = temporary data
+
+* `/usr` = main user programs
+
+* `/var` = others
 
 names of files: case-sensitive, avoid space, or @$%^&*()+=/
 
