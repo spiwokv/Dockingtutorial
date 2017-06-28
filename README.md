@@ -126,7 +126,8 @@ cat > file3.txt
 Write something
 here
 Ctrl+D
-``` - creation of a file by cat
+```
+- creation of a file by cat
 
 * `echo "Write something here" > file1.txt` - creation of a file by echo
 
