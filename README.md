@@ -114,3 +114,21 @@ names of files: case-sensitive, avoid space, or @$%^&*()+=/
 
 * `diff file1.txt file2.txt` - prints differences in files
 
+### Redirections and pipes
+
+* `cat file1.txt file2.txt > file12.txt` - joints two files into file12.txt
+
+* `grep 000 file1.txt > file2.txt` - prints lines from file1.txt containing 000 to file2.txt
+
+* `cat > file3.txt`
+`Write something`
+`here`
+`Ctrl+D` - creation of a file by cat
+
+* `echo "Write something here" > file1.txt` - creation of a file by echo
+
+* `cat file1.txt >> file2.txt` - appends file1.txt at the end of file2.txt
+
+* `egrep 000 file1.txt | wc` = counts lines containing 000 in file1.txt
+
+
